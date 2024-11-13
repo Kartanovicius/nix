@@ -1,0 +1,38 @@
+@import "./battery.scss";
+@import "./color_picker.scss";
+@import "./datetime.scss";
+@import "./audio.scss";
+
+* {
+  font-family: "proportional_font";
+  transition: 0;
+  color: #ffffff;
+}
+
+window {
+  &.bar {
+    background-color: #080808;
+  }
+}
+
+.indicator-icon {
+  padding: 0;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.button-icon {
+  padding: 0;
+  box-shadow: none;
+  background: transparent;
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  outline-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
